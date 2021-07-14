@@ -3,7 +3,7 @@
 
 
 
-/* general settings */
+                              /* general settings */
 * {
     margin: 0;
     padding: 0;
@@ -12,16 +12,48 @@
     text-decoration: none;
     font-family: 'dosis',sans-serif;
 }
+body{
+    background-color: #615e5e;
+}
 
 a{
     text-decoration: none;
     color: black;
 }
 
+.container{
+    width: 70%;
+    margin: 0px auto;
+    
+    
+}
+
+section{
+    margin: 50px 0px 50px 0px;
+}
+h2{
+    text-align: center;
+    color: #eae2e2;
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: #948d8d;
+   
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #eae2e2;
+}
 
 
 
-/* header */
+
+                             /* header */
 
 
 .header{
@@ -54,4 +86,12 @@ a{
     transition: 0.5s;
 }
 
+                                 /* section Youtube */
+
+
+
+.youtube_screen{
+    width: 100%;
+    margin-bottom: 50px;
+}
 
