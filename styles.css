@@ -1,3 +1,8 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+
 /* general settings */
 * {
     margin: 0;
@@ -5,26 +10,48 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'dosis',sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 /* header */
-.main_title {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+
+.header{
+    background-color: #948d8d;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eae2e2;
+    
+}
+.main_title{
     font-size: 50px;
 }
 
-.navbar{
+.navbar .nav_menu{
     display: flex;
-    justify-content: center;
-}
-
-.nav_menu{
-    display: flex;
-    justify-content: center;
     
 }
-.nav_menu li {
-    padding-left: 20px;
+
+.nav_menu li{
+   margin-left: 15px;
+   font-size: 25px;
+   color: #eae2e2;
+
 }
+
+.nav_menu li:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+
